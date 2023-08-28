@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+<section style="background-color:lightblue;" class="hero">
+    
+    <div class="hero-content">
+        <h1 class="hero-title">Blogs <span>About</span> <span>Tourism</span></h1>
+        <p class="hero-paragraph">
+            Here people can see blogs about tourist place all over the world.Click below to search about particular place all through the world.
+        </p>
+        <div class="hero-options">
+            
+            <a href="{% url 'stackbase:question-list' %}" class="btn btn-developers" style="margin-left: 5px;">CLICK HERE</a>
+           
+            
+
+        </div>
+    </div>
+</section>
+
+
+
+  
+
+
+
+
+
+
+
+
+{% endblock content %}
